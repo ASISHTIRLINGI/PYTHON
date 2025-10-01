@@ -7,6 +7,12 @@ array.append(5)
 print(array)
 
 flower=[]
+for i in range(1,51):
+    flower.append(i)
+for i in range(0,50):
+    print(flower[i])
+
+flower=[]
 for i in  range(1,1001):
     flower.append(i)
     print(flower[i-1])
