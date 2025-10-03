@@ -61,3 +61,13 @@ print(k)
 
 #sets are mutable
 #sets has unique elements
+
+dict={
+    "model":"1st Model",
+    "year":2021,
+    "age":18
+}
+#print(type(dict))
+print(dict['model'])
+dict['city']='Hyderabad'
+print(dict)
