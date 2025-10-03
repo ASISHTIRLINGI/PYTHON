@@ -71,3 +71,28 @@ dict={
 print(dict['model'])
 dict['city']='Hyderabad'
 print(dict)
+
+#the functions concept
+def mom(a,b):
+    print(a+b)
+a=10
+b=20
+mom(a,b)
+mom(5,6)
+mom(a,b)
+mom(5,6)
+#to print directly
+
+def mom(a,b):
+    return a+b
+a=10
+b=20
+c=mom(a,b)
+print(c)
+d=mom(5,6)
+print(d)
+e=mom(a,b)
+print(e)
+f=mom(5,6)
+print(f)
+#to print internally one by one
