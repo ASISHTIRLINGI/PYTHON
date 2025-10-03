@@ -19,25 +19,25 @@ for i in  range(1,1001):
 
 for i in range(1,51):
      print(i)
-#while(i<6):
-    #print(i)
-    #i+=1
-    #i=i+1
-    #i=i+2
+while(i<6):
+    print(i)
+    i+=1
+    i=i+1
+    i=i+2
     
-#j=1
-#while(j<51):
-    #print(j)
-    #j=j+2
+j=1
+while(j<51):
+    print(j)
+    j=j+2
     
-#k=0
-#while(k<51):
-    #print(k)
-    #k=k+2
+k=0
+while(k<51):
+    print(k)
+    k=k+2
     
     
-#n=int(input("Enter a number"))
-#if n%2==0:
-    #print("it is an even number")
-#else:
-    #print("it is an odd number")
+n=int(input("Enter a number"))
+if n%2==0:
+    print("it is an even number")
+else:
+    print("it is an odd number")
