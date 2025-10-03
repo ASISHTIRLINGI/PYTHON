@@ -41,3 +41,23 @@ if n%2==0:
     print("it is an even number")
 else:
     print("it is an odd number")
+
+
+#list=[1,2,2,3,3,4,4,5,5,6,8,9,9,7]
+#print(list)
+#rev=tuple(list)
+#print(rev)
+
+
+#Mutable ->list
+#Immutable ->tuple
+
+list=[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+k=set(list)
+print(k)
+k.add(12)
+k.add(12)
+print(k)
+
+#sets are mutable
+#sets has unique elements
