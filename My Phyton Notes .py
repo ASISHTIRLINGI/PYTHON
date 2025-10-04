@@ -43,14 +43,14 @@ else:
     print("it is an odd number")
 
 
-#list=[1,2,2,3,3,4,4,5,5,6,8,9,9,7]
-#print(list)
-#rev=tuple(list)
-#print(rev)
+list=[1,2,2,3,3,4,4,5,5,6,8,9,9,7]
+print(list)
+rev=tuple(list)
+print(rev)
 
 
-#Mutable ->list
-#Immutable ->tuple
+Mutable ->list
+Immutable ->tuple
 
 list=[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
 k=set(list)
@@ -109,33 +109,33 @@ b=20
 c=mom(a,b)
 print(c)
 
-#int #(integer)
-#float #(decimal) upto 6 decimals
-#complex #(x+iy) complex numbers
-#str #string
-#bool # true or false (boolian)
-#list
-#tuple
-#dict
+int #(integer)
+float #(decimal) upto 6 decimals
+complex #(x+iy) complex numbers
+str #string
+bool # true or false (boolian)
+list
+tuple
+dict
 
 
-#if True:
- #   print("Valid")
-#else:
-   # print("Invalid")
-    #out put Valid(about bool data type)
+if True:
+    print("Valid")
+else:
+    print("Invalid")
+    out put Valid(about bool data type)
 
-#try and except condition
+try and except condition
     
-#try:
- #   a=int(input("Enter First Number: "))
- #   b=int(input("Enter Second Number: "))
- #   result=a+b
- #   print("Sum:",result)
-#except ValueError:
-#    print("Invalid input! Please enter Numbers only.")
-#finally:
-#    print("Code Exicuted Successfully")
+try:
+    a=int(input("Enter First Number: "))
+    b=int(input("Enter Second Number: "))
+    result=a+b
+    print("Sum:",result)
+except ValueError:
+    print("Invalid input! Please enter Numbers only.")
+finally:
+    print("Code Exicuted Successfully")
 
 
     
