@@ -95,4 +95,61 @@ e=mom(a,b)
 print(e)
 f=mom(5,6)
 print(f)
-#to print internally one by one
+to print internally one by one
+
+list=[1,2,3,4,5,6,7,8,9]
+print(list[4:])
+print(list[1::2])
+
+def mom(a,b):
+    print(a+b)
+    
+a=10
+b=20
+c=mom(a,b)
+print(c)
+
+#int #(integer)
+#float #(decimal) upto 6 decimals
+#complex #(x+iy) complex numbers
+#str #string
+#bool # true or false (boolian)
+#list
+#tuple
+#dict
+
+
+#if True:
+ #   print("Valid")
+#else:
+   # print("Invalid")
+    #out put Valid(about bool data type)
+
+#try and except condition
+    
+#try:
+ #   a=int(input("Enter First Number: "))
+ #   b=int(input("Enter Second Number: "))
+ #   result=a+b
+ #   print("Sum:",result)
+#except ValueError:
+#    print("Invalid input! Please enter Numbers only.")
+#finally:
+#    print("Code Exicuted Successfully")
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
