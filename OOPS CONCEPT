@@ -1,0 +1,24 @@
+# oops are divided into two types:
+#      1.classes
+#      2.objects
+
+# Clases:is a blue print to creating an objects.
+#       it is a set of attributes.
+ 
+# Attributes:behaviour of a class or a person.an instance of a class
+
+# without class there is no object.
+
+# # Object:a concrete realisation of a class.when you crate a class you are creating a instance of an object
+
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+    def __str__(self):
+            return f"{self.name},{self.age} years old"
+        
+person = Person("Asish",18)
+print(person)
+        
